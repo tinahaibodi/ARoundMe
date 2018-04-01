@@ -14,7 +14,6 @@
 
 @end
 
-    
 @implementation ViewController
 
 - (void)viewDidLoad {
@@ -80,7 +79,7 @@
 
 - (void)sessionInterruptionEnded:(ARSession *)session {
     // Reset tracking and/or remove existing anchors if consistent tracking is required
-    
+ 
 }
 
 @end
