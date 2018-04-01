@@ -16,6 +16,16 @@
 		D96F31BD20706F17009847C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D96F31BC20706F17009847C7 /* main.m */; };
 		D96F31C720706F17009847C7 /* ARoundMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D96F31C620706F17009847C7 /* ARoundMeTests.m */; };
 		D96F31D220706F17009847C7 /* ARoundMeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D96F31D120706F17009847C7 /* ARoundMeUITests.m */; };
+		D9C8F65420707CB300983C76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C8F65320707CB300983C76 /* AppDelegate.m */; };
+		D9C8F65620707CB300983C76 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C8F65520707CB300983C76 /* art.scnassets */; };
+		D9C8F65920707CB300983C76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C8F65820707CB300983C76 /* ViewController.m */; };
+		D9C8F65C20707CB300983C76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C8F65A20707CB300983C76 /* Main.storyboard */; };
+		D9C8F65E20707CB300983C76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C8F65D20707CB300983C76 /* Assets.xcassets */; };
+		D9C8F66120707CB300983C76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C8F65F20707CB300983C76 /* LaunchScreen.storyboard */; };
+		D9C8F66420707CB300983C76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C8F66320707CB300983C76 /* main.m */; };
+		D9C8F66E20707CB400983C76 /* ARound_MeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C8F66D20707CB400983C76 /* ARound_MeTests.m */; };
+		D9C8F67920707CB400983C76 /* ARound_MeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C8F67820707CB400983C76 /* ARound_MeUITests.m */; };
+		D9C8F6852070815100983C76 /* SceneKit Scene.scn in Resources */ = {isa = PBXBuildFile; fileRef = D9C8F6842070815100983C76 /* SceneKit Scene.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +42,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = D96F31A720706F17009847C7;
 			remoteInfo = ARoundMe;
+		};
+		D9C8F66A20707CB400983C76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D96F31A020706F17009847C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9C8F64F20707CB300983C76;
+			remoteInfo = "ARound Me";
+		};
+		D9C8F67520707CB400983C76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D96F31A020706F17009847C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9C8F64F20707CB300983C76;
+			remoteInfo = "ARound Me";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -53,6 +77,24 @@
 		D96F31CD20706F17009847C7 /* ARoundMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARoundMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D96F31D120706F17009847C7 /* ARoundMeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARoundMeUITests.m; sourceTree = "<group>"; };
 		D96F31D320706F17009847C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9C8F65020707CB300983C76 /* ARound Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARound Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9C8F65220707CB300983C76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D9C8F65320707CB300983C76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D9C8F65520707CB300983C76 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		D9C8F65720707CB300983C76 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D9C8F65820707CB300983C76 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D9C8F65B20707CB300983C76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9C8F65D20707CB300983C76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9C8F66020707CB300983C76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9C8F66220707CB300983C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9C8F66320707CB300983C76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9C8F66920707CB400983C76 /* ARound MeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARound MeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9C8F66D20707CB400983C76 /* ARound_MeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARound_MeTests.m; sourceTree = "<group>"; };
+		D9C8F66F20707CB400983C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9C8F67420707CB400983C76 /* ARound MeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARound MeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9C8F67820707CB400983C76 /* ARound_MeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARound_MeUITests.m; sourceTree = "<group>"; };
+		D9C8F67A20707CB400983C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9C8F6842070815100983C76 /* SceneKit Scene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = "SceneKit Scene.scn"; path = "art.scnassets/SceneKit Scene.scn"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +119,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D9C8F64D20707CB300983C76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C8F66620707CB400983C76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C8F67120707CB400983C76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -86,6 +149,9 @@
 				D96F31AA20706F17009847C7 /* ARoundMe */,
 				D96F31C520706F17009847C7 /* ARoundMeTests */,
 				D96F31D020706F17009847C7 /* ARoundMeUITests */,
+				D9C8F65120707CB300983C76 /* ARound Me */,
+				D9C8F66C20707CB400983C76 /* ARound MeTests */,
+				D9C8F67720707CB400983C76 /* ARound MeUITests */,
 				D96F31A920706F17009847C7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +162,9 @@
 				D96F31A820706F17009847C7 /* ARoundMe.app */,
 				D96F31C220706F17009847C7 /* ARoundMeTests.xctest */,
 				D96F31CD20706F17009847C7 /* ARoundMeUITests.xctest */,
+				D9C8F65020707CB300983C76 /* ARound Me.app */,
+				D9C8F66920707CB400983C76 /* ARound MeTests.xctest */,
+				D9C8F67420707CB400983C76 /* ARound MeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,6 +176,7 @@
 				D96F31AC20706F17009847C7 /* AppDelegate.m */,
 				D96F31AE20706F17009847C7 /* art.scnassets */,
 				D96F31B020706F17009847C7 /* ViewController.h */,
+				D9C8F6842070815100983C76 /* SceneKit Scene.scn */,
 				D96F31B120706F17009847C7 /* ViewController.m */,
 				D96F31B320706F17009847C7 /* Main.storyboard */,
 				D96F31B620706F17009847C7 /* Assets.xcassets */,
@@ -133,6 +203,41 @@
 				D96F31D320706F17009847C7 /* Info.plist */,
 			);
 			path = ARoundMeUITests;
+			sourceTree = "<group>";
+		};
+		D9C8F65120707CB300983C76 /* ARound Me */ = {
+			isa = PBXGroup;
+			children = (
+				D9C8F65220707CB300983C76 /* AppDelegate.h */,
+				D9C8F65320707CB300983C76 /* AppDelegate.m */,
+				D9C8F65520707CB300983C76 /* art.scnassets */,
+				D9C8F65720707CB300983C76 /* ViewController.h */,
+				D9C8F65820707CB300983C76 /* ViewController.m */,
+				D9C8F65A20707CB300983C76 /* Main.storyboard */,
+				D9C8F65D20707CB300983C76 /* Assets.xcassets */,
+				D9C8F65F20707CB300983C76 /* LaunchScreen.storyboard */,
+				D9C8F66220707CB300983C76 /* Info.plist */,
+				D9C8F66320707CB300983C76 /* main.m */,
+			);
+			path = "ARound Me";
+			sourceTree = "<group>";
+		};
+		D9C8F66C20707CB400983C76 /* ARound MeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9C8F66D20707CB400983C76 /* ARound_MeTests.m */,
+				D9C8F66F20707CB400983C76 /* Info.plist */,
+			);
+			path = "ARound MeTests";
+			sourceTree = "<group>";
+		};
+		D9C8F67720707CB400983C76 /* ARound MeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9C8F67820707CB400983C76 /* ARound_MeUITests.m */,
+				D9C8F67A20707CB400983C76 /* Info.plist */,
+			);
+			path = "ARound MeUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +296,59 @@
 			productReference = D96F31CD20706F17009847C7 /* ARoundMeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		D9C8F64F20707CB300983C76 /* ARound Me */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9C8F67B20707CB400983C76 /* Build configuration list for PBXNativeTarget "ARound Me" */;
+			buildPhases = (
+				D9C8F64C20707CB300983C76 /* Sources */,
+				D9C8F64D20707CB300983C76 /* Frameworks */,
+				D9C8F64E20707CB300983C76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ARound Me";
+			productName = "ARound Me";
+			productReference = D9C8F65020707CB300983C76 /* ARound Me.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9C8F66820707CB400983C76 /* ARound MeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9C8F67E20707CB400983C76 /* Build configuration list for PBXNativeTarget "ARound MeTests" */;
+			buildPhases = (
+				D9C8F66520707CB400983C76 /* Sources */,
+				D9C8F66620707CB400983C76 /* Frameworks */,
+				D9C8F66720707CB400983C76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9C8F66B20707CB400983C76 /* PBXTargetDependency */,
+			);
+			name = "ARound MeTests";
+			productName = "ARound MeTests";
+			productReference = D9C8F66920707CB400983C76 /* ARound MeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9C8F67320707CB400983C76 /* ARound MeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9C8F68120707CB400983C76 /* Build configuration list for PBXNativeTarget "ARound MeUITests" */;
+			buildPhases = (
+				D9C8F67020707CB400983C76 /* Sources */,
+				D9C8F67120707CB400983C76 /* Frameworks */,
+				D9C8F67220707CB400983C76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9C8F67620707CB400983C76 /* PBXTargetDependency */,
+			);
+			name = "ARound MeUITests";
+			productName = "ARound MeUITests";
+			productReference = D9C8F67420707CB400983C76 /* ARound MeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -214,6 +372,20 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = D96F31A720706F17009847C7;
 					};
+					D9C8F64F20707CB300983C76 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D9C8F66820707CB400983C76 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D9C8F64F20707CB300983C76;
+					};
+					D9C8F67320707CB400983C76 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D9C8F64F20707CB300983C76;
+					};
 				};
 			};
 			buildConfigurationList = D96F31A320706F17009847C7 /* Build configuration list for PBXProject "ARoundMe" */;
@@ -232,6 +404,9 @@
 				D96F31A720706F17009847C7 /* ARoundMe */,
 				D96F31C120706F17009847C7 /* ARoundMeTests */,
 				D96F31CC20706F17009847C7 /* ARoundMeUITests */,
+				D9C8F64F20707CB300983C76 /* ARound Me */,
+				D9C8F66820707CB400983C76 /* ARound MeTests */,
+				D9C8F67320707CB400983C76 /* ARound MeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,6 +417,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D96F31AF20706F17009847C7 /* art.scnassets in Resources */,
+				D9C8F6852070815100983C76 /* SceneKit Scene.scn in Resources */,
 				D96F31BA20706F17009847C7 /* LaunchScreen.storyboard in Resources */,
 				D96F31B720706F17009847C7 /* Assets.xcassets in Resources */,
 				D96F31B520706F17009847C7 /* Main.storyboard in Resources */,
@@ -256,6 +432,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D96F31CB20706F17009847C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C8F64E20707CB300983C76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C8F65620707CB300983C76 /* art.scnassets in Resources */,
+				D9C8F66120707CB300983C76 /* LaunchScreen.storyboard in Resources */,
+				D9C8F65E20707CB300983C76 /* Assets.xcassets in Resources */,
+				D9C8F65C20707CB300983C76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C8F66720707CB400983C76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C8F67220707CB400983C76 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -291,6 +492,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D9C8F64C20707CB300983C76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C8F65920707CB300983C76 /* ViewController.m in Sources */,
+				D9C8F66420707CB300983C76 /* main.m in Sources */,
+				D9C8F65420707CB300983C76 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C8F66520707CB400983C76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C8F66E20707CB400983C76 /* ARound_MeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C8F67020707CB400983C76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C8F67920707CB400983C76 /* ARound_MeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -303,6 +530,16 @@
 			isa = PBXTargetDependency;
 			target = D96F31A720706F17009847C7 /* ARoundMe */;
 			targetProxy = D96F31CE20706F17009847C7 /* PBXContainerItemProxy */;
+		};
+		D9C8F66B20707CB400983C76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9C8F64F20707CB300983C76 /* ARound Me */;
+			targetProxy = D9C8F66A20707CB400983C76 /* PBXContainerItemProxy */;
+		};
+		D9C8F67620707CB400983C76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9C8F64F20707CB300983C76 /* ARound Me */;
+			targetProxy = D9C8F67520707CB400983C76 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -319,6 +556,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				D96F31B920706F17009847C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D9C8F65A20707CB300983C76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9C8F65B20707CB300983C76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9C8F65F20707CB300983C76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9C8F66020707CB300983C76 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -433,7 +686,7 @@
 		D96F31D720706F17009847C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = ARoundMe;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4XR8LRW654;
 				INFOPLIST_FILE = ARoundMe/Info.plist;
@@ -447,7 +700,7 @@
 		D96F31D820706F17009847C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = ARoundMe;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4XR8LRW654;
 				INFOPLIST_FILE = ARoundMe/Info.plist;
@@ -516,6 +769,92 @@
 			};
 			name = Release;
 		};
+		D9C8F67C20707CB400983C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XR8LRW654;
+				INFOPLIST_FILE = "ARound Me/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HackPrinceton.ARound-Me";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9C8F67D20707CB400983C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XR8LRW654;
+				INFOPLIST_FILE = "ARound Me/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HackPrinceton.ARound-Me";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9C8F67F20707CB400983C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XR8LRW654;
+				INFOPLIST_FILE = "ARound MeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HackPrinceton.ARound-MeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARound Me.app/ARound Me";
+			};
+			name = Debug;
+		};
+		D9C8F68020707CB400983C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XR8LRW654;
+				INFOPLIST_FILE = "ARound MeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HackPrinceton.ARound-MeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARound Me.app/ARound Me";
+			};
+			name = Release;
+		};
+		D9C8F68220707CB400983C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XR8LRW654;
+				INFOPLIST_FILE = "ARound MeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HackPrinceton.ARound-MeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ARound Me";
+			};
+			name = Debug;
+		};
+		D9C8F68320707CB400983C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XR8LRW654;
+				INFOPLIST_FILE = "ARound MeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HackPrinceton.ARound-MeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ARound Me";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -551,6 +890,33 @@
 			buildConfigurations = (
 				D96F31DD20706F17009847C7 /* Debug */,
 				D96F31DE20706F17009847C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9C8F67B20707CB400983C76 /* Build configuration list for PBXNativeTarget "ARound Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9C8F67C20707CB400983C76 /* Debug */,
+				D9C8F67D20707CB400983C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9C8F67E20707CB400983C76 /* Build configuration list for PBXNativeTarget "ARound MeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9C8F67F20707CB400983C76 /* Debug */,
+				D9C8F68020707CB400983C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9C8F68120707CB400983C76 /* Build configuration list for PBXNativeTarget "ARound MeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9C8F68220707CB400983C76 /* Debug */,
+				D9C8F68320707CB400983C76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

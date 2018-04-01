@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  ARoundMe
+//  ARound Me
 //
 //  Created by Tina Haibodi on 2018-03-31.
 //  Copyright © 2018 Tina Haibodi. All rights reserved.
@@ -23,13 +23,8 @@
     // Set the view's delegate
     self.sceneView.delegate = self;
     
-    // Show statistics such as proximity and timing information
+    // Show statistics such as fps and timing information
     self.sceneView.showsStatistics = YES;
-    
-    // API wrapper for business search about surroundings
-    
-    // on initation of the sceneviewcontroller it would have to run a four loop that creates the scene object with a given latitutde and longtitude lmaoo fuck write a four loop
-    
     
     // Create a new scene
     SCNScene *scene = [SCNScene sceneNamed:@"art.scnassets/ship.scn"];
