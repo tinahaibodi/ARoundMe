@@ -13,7 +13,7 @@ This app when projected on thin air, illustrates the presence of the Solar syste
 ARKit and Scenekit on Xcode platform with Objective-C as programming language.
 
 ## Challenges we ran into
-While making planets wasn't hard, creating particles and visualizing planets motion required most of the caffeine.
+
 
 ## Accomplishments that we're proud of
 Learning how to transition from Swift to Objective-C and back. Meddling with AR, contemplating benefits of AR vs. VR Finally understanding the importance of Cocoapods in iOS development (who knew it was like npm and pip?)
