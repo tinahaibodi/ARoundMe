@@ -4,7 +4,7 @@ An iOS application that uses Augmented Reality to help engage kids learning abou
 
 
 ## Inspiration
-What if you could bring your textbook to life? With the rise of technology - we finally can. solAR was created to help spike the interest of space in young adults by started in the classroom. solAR is an initiative... and a journey
+What if you could bring your textbook to life? With the rise of technology - we finally can. solAR was created to help spike the interest of space in young adults by started in the classroom. 
 
 ## What it does
 This app when projected on thin air, illustrates the presence of the Solar system, outer space particles. You can also see speed of revolution of planets and travel in a rocket to the outer space.
